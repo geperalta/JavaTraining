@@ -86,8 +86,8 @@ public class Students {
 	}
 	
 	public void enroll(String courses) {
-		this.courses = this.courses + "\n" +courses; 	//in this way we create a course every time we enroll in new line
-		balance = balance + costOfCourse;				//with this every enroll we add the cost to the balance
+		this.courses = this.courses + "\n" +courses; 	//in this way we create a course every time we enroll and add it in a new line
+		balance = balance + costOfCourse;				//with this every enroll we add we also add the cost to the balance
 	}
 	public void payTuition(int amount) {
 		balance = balance - amount;
