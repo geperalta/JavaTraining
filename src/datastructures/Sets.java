@@ -9,8 +9,8 @@ public class Sets {
 
 	public static void main(String[] args) {
 		
-		// LinkedHashSet - in the order they were entered
 		// HashSet - complete random order
+		// LinkedHashSet - in the order they were entered
 		// TreeSet - rearrange to natural order
 		
 		// SET - only for unique elements
